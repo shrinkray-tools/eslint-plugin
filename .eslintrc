@@ -1,0 +1,7 @@
+{
+	"plugins": ["@shrinkray-tools"],
+	"rules": {
+		"@shrinkray-tools/no-large-imports": "warn"
+	},
+	"extends": ["plugin:@shrinkray-tools/recommended"]
+}

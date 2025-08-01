@@ -1,0 +1,30 @@
+{
+  "name": "@shrinkray-tools/eslint-plugin",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Den Odell",
+  "scripts": {
+    "test": "npm run test:rule && node test/real-eslint-run.test.js",
+    "test:rule": "node test/no-large-imports.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "performance",
+    "import",
+    "bundle size",
+    "shrinkray"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "package-size": "^2.3.0",
+    "vitest": "^3.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

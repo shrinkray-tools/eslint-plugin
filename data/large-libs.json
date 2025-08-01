@@ -1,0 +1,9 @@
+{
+  "@mui/material": 612,
+  "@aws-sdk/client-s3": 408,
+  "firebase": 648,
+  "react-datepicker": 327,
+  "moment": 801,
+  "lodash": 535,
+  "three": 2114
+}
